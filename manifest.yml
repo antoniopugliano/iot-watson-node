@@ -1,0 +1,13 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: iot-watson-node
+  host: iot-watson-node
+  disk_quota: 1024M
+  services:
+  - iot-watson-node-ibm-iot-for-electronics
+  - iot-watson-node-iotf-service
+  - iot-watson-node-AdvancedMobileAccess
+  - availability-monitoring-auto
